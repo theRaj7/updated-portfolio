@@ -134,6 +134,51 @@
     
   }
 
+  
+@media screen and (max-width:769px){
+  
+  .p1{
+    background-color:#ff9000e6;
+    width: 100%;
+    height: 800px;  
+  }
+  
+  
+  .hero{
+    padding-top: 26%;
+    margin-left: 26%;
+    color: #FFF7E9;
+    font-family: "agbalumo";
+  }
+  .hero > img{
+    width: 300px;
+    border-radius: 300px;
+  }
+  
+  .hero-name{
+    color: #F8FAE5;
+    font-size: 50px;
+    padding-left: 50px;
+  }
+  
+  .one-line{
+    padding-left: 100px;
+  }
+  
+  .icons{
+    padding-top: 10px;
+    margin-left: 65px;
+  }
+  
+  .icons i {
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+  }
+    
+  }
+  
+
 /* page 2 */
 
 
@@ -292,6 +337,57 @@
     
   }
 
+
+  
+
+@media screen and (max-width:769px) {
+  
+  .p2{
+    width: 100%;
+    height: auto;
+    background-color: #7F5283;
+    padding-top: 20px;
+    /* padding-left: ; */
+  
+  }
+  
+  .p2 h1{
+    color: #F7EFE5;
+    padding-top: 20px;
+    font-family: "cinzel";
+    font-size: 50px;
+  }
+ 
+  .box {
+    display: inline-flex;
+    text-align: center;
+    background-color: #E0D8B0;
+    border: 4px solid #524A4E;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .work{
+  padding: 80px 10px 20px 50px;
+  display: inline-flexbox;
+}
+  
+  .box img{
+    width: 400px;
+    height: 300px;
+  }
+
+  
+  .box:hover{
+    cursor: pointer;
+    /* background-color: #7F5283; */
+    border-color:rgb(241, 237, 18) ;
+  }
+  
+    
+  }
+
+  
+
   
   
   
@@ -421,7 +517,50 @@
   }
   
   }
+
+
+  @media screen and (max-width:769px) {
+
   
+    .p3{
+      height: 800px;
+      width: 91.5%;
+      background-color: rgb(202, 241, 241);
+      text-align: center;
+      padding: 350px 45px 0 20px;
+    }
+    
+    .heading-3{
+      padding-bottom: 20px;
+      font-size: 80px;
+      color: #524A4E
+      
+    }
+    
+    .para-3{
+      color: darkblue;
+      padding-bottom:40px;
+      font-size: 20px;
+    }
+    
+    
+    
+    .button-3{
+      width: 140px;
+      height: 60px;
+      border-radius: 10px ;
+      background-color: #ff9000e6;
+      border-color: rgb(240, 242, 240);
+      border-width: 2x;
+      font-size: 20px;
+    }
+    
+    .button-3:hover{
+      background-color: rgb(202, 241, 241);
+    }
+    
+    }
+    
 
 
 /* Page 4 */
@@ -606,6 +745,72 @@ textarea{
   }
    
   }
+
+
+
+  
+@media screen and (max-width:769px) {
+  
+  .contact-form{
+    height: 750px;
+    background-color: rgb(238, 245, 238);
+    /* display: inline-block; */
+    
+  }
+  
+  .form-img{
+    width:100%;
+    height: 750px;
+  }
+  
+  form{
+    padding: 50px;
+  }
+  
+  .form-heading {
+    padding-left: 40px;
+    font-size: 80px;
+  }
+  
+  input{
+    width: 400px;
+    height: 30px;
+    margin: 25px 0 0 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #e9e8e5;
+    font-size: 18px;
+    font-size: 20px;
+  
+  }
+  textarea{
+    margin: 25px 0 0 40px;
+    height: 200px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .form-btn{
+    margin: 25px 200px 0 5%;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:#ff9000e6;
+    border-width:1px ;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .form-btn:hover{
+    background-color: white;
+    color: #ff9000e6;
+    font-weight: bolder;
+  }
+   
+  }
+  
+  
   
   
 
